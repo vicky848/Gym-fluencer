@@ -1,0 +1,41 @@
+.service-container{
+    background-color: #141313;
+   padding: 20px;
+   
+   height: 100vh;
+   width: 100%;
+  
+
+}
+
+.service-container h1{
+    color: rgb(224, 19, 19);
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    font-family: "Roboto";
+    font-weight: 700;
+} 
+.service-container p{
+    color: white;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.service-container ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.service-container ul li{
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #ffffff;
+}

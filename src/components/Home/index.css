@@ -1,0 +1,50 @@
+.home-container{
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/19/12/43/barbell-1839086_1280.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.home-heading{
+    color: white;
+   font-size: 44px;
+    font-weight: bold;
+    
+}
+
+.home-description{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.home-button{
+    background-color: Red;
+    color:#000000;
+    border-width: 0px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-weight: 700;
+    height: 32px;
+    width: 132px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover{
+    background-color: #030303;
+    color: #ffffff;
+}
+
+.home-sub-heading{
+    color: rgb(175, 218, 21);
+    font-size: 25px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}

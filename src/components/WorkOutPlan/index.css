@@ -1,0 +1,96 @@
+.main-workout-container{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #000000, #434343);
+
+}
+
+
+.main-workout-heading{
+    color: rgb(236, 3, 3);
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.workout-container{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+
+
+  
+}
+.workout-image{
+    height: 200px;
+    width: 300px;
+}
+.workout-heading{
+    color: rgb(238, 6, 6);
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.workout-card{
+    height: 400px;
+    width: 400px;
+    box-shadow: 5px 2px 1px rgb(235, 229, 229);
+    margin: 10px;
+}
+/* hover */
+.workout-card:hover{
+    transform: scale(1.05);
+
+}
+
+
+
+.workout-card p{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.daily-routine{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.card-image{
+    height: 400px;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    
+
+}
+
+.fitness-image{
+    height: 300px;
+    width: 400px;
+
+}
+
+.card-image p{
+    color: rgb(216, 13, 13);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.card-image:hover{
+    transform: scale(1.05);
+ 
+}

@@ -1,0 +1,40 @@
+.faq-container{
+    background-color: #141313;
+    height: 100vh;
+    width: 100%;
+
+}
+.faq-container h1{
+    text-align: center;
+    color: rgb(233, 10, 10);
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: 900;
+}
+
+.faq-container ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.faq-container ul li{
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.faq-container li{
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #ffffff;
+}
+.faq-container p{
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 34px;
+}

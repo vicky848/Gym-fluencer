@@ -1,0 +1,101 @@
+.diet-container{
+    background-image: linear-gradient(to bottom right, #000000, #434343);
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+   
+
+}
+.diet-plan-heading{
+    color: rgb(255, 7, 7);
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+
+
+}
+.diet-plan-card{
+    
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+    flex-wrap: wrap;    
+
+
+
+
+}
+
+.diet-plan{
+    height: 350px;
+    width: 400px;
+    background-color: rgb(71, 72, 73);
+    margin: 10px;
+
+}
+.diet-plan-card img{
+  height: 200px;
+  width: 250px;
+  margin-top: 10px;
+}
+.diet-plan h2{
+    color: rgb(230, 6, 6);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto";
+    text-align: center;
+    padding-top: 10px;
+
+} 
+.diet-plan p{
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.diet-plan-cta{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.mobile-image-diet-plan{
+    height: 400px;
+    width: 400px;
+    margin-bottom: 40px;
+}
+.mobile-image-diet-plan img{
+    height: 300px;
+    width: 400px;
+}
+
+.mobile-image-diet-plan h1{
+    color: rgb(211, 10, 10);
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Roboto";
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.mobile-image-diet-plan p{
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.mobile-image-diet-plan:hover{
+    transform: scale(1.1);
+}
